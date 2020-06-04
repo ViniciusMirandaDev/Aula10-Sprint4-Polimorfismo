@@ -9,7 +9,9 @@ namespace Aula10_Sprint4_Polimorfismo
         public virtual void Correr(){
             System.Console.WriteLine("O personagem está correndo normalmente");
         }
-
+        public virtual void Cair(){
+            System.Console.WriteLine("O personagem está caindo normalmente");
+        }
 
     }
 }
